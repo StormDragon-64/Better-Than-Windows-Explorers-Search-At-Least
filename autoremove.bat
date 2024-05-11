@@ -1,8 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set "searchDirectory=Enter the path of the directory to search: "
-set "filePath=Enter the path of the .txt file: "
+set /p "searchDirectory=Enter the path of the directory to search: "
+set /p "filePath=Enter the path of the .txt file: "
 set "searchText="
 set "deleteFiles="
 
